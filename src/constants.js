@@ -264,7 +264,7 @@ export const SkillsInfo = [
       description:
         "A comprehensive School Management System (SMS) designed to streamline and automate administrative tasks, student and faculty management, and communication within educational institutions. This platform provides a centralized solution for efficient school operations.",
       image: SMSLogo,
-      tags: ["Vite","TypeScript", "React","shadcn-ui" ,"Tailwind CSS", "",],
+      tags: ["Vite","TypeScript", "React","shadcn-ui" ,"Tailwind CSS",],
       github: "https://github.com/Hamza-Zehri/school-managment-system",
       webapp: "https://preview--school-management-system-kz.lovable.app",
     },
