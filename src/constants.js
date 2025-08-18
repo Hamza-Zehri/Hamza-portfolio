@@ -56,7 +56,7 @@ import tmsLogo from './assets/work_logo/tms.png';
 import CGPALogo from './assets/work_logo/Cgpa_Calculator.png';
 import dataHUBLogo from './assets/work_logo/data_entry.png';
 import BuetPortalLogo from './assets/work_logo/buet_portal.png';
-
+import SMSLogo from './assets/work_logo/SMS_logo.png';
 
 
 export const SkillsInfo = [
@@ -258,5 +258,14 @@ export const SkillsInfo = [
       github: "https://github.com/Hamza-Zehri/University_Portal",
       webapp: "https://buetk-portal.vercel.app",
     },
-    
+    {
+      id: 4,
+      title: "School Management System (SMS)",
+      description:
+        "A comprehensive School Management System (SMS) designed to streamline and automate administrative tasks, student and faculty management, and communication within educational institutions. This platform provides a centralized solution for efficient school operations.",
+      image: SMSLogo,
+      tags: ["Vite","TypeScript", "React","shadcn-ui" ,"Tailwind CSS", "",],
+      github: "https://github.com/Hamza-Zehri/school-managment-system",
+      webapp: "https://preview--school-management-system-kz.lovable.app",
+    },
   ];
