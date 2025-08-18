@@ -49,7 +49,7 @@ My hands-on experience and continuous learning mindset have equipped me with a v
           </p>
           {/* Resume Button */}
           <a
-            href="https://1drv.ms/b/c/550d148af28965ae/Ea5lifKKFA0ggFXnDAAAAAAB0oONROYMURYK5qIrDCAZ9w"
+            href="https://1drv.ms/i/c/550d148af28965ae/EbCJi51b9dpKtF0oNVUBKdIBsEm97QoULRyNDIriJ7WjlA"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
