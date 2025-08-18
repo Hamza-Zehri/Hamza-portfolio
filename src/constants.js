@@ -140,8 +140,6 @@ export const SkillsInfo = [
         "Node JS",
         "Tailwind CSS",
         "MongoDb",
-        "Redux",
-        " Next Js",
       ],
     },
     {
