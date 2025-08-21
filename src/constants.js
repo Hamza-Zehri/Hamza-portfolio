@@ -57,7 +57,7 @@ import CGPALogo from './assets/work_logo/Cgpa_Calculator.png';
 import dataHUBLogo from './assets/work_logo/data_entry.png';
 import BuetPortalLogo from './assets/work_logo/buet_portal.png';
 import SMSLogo from './assets/work_logo/SMS_logo.png';
-
+import AFSMSLogo from './assets/work_logo/AFSMS_logo.png';
 
 export const SkillsInfo = [
   {
@@ -265,5 +265,15 @@ export const SkillsInfo = [
       tags: ["Vite","TypeScript", "React","shadcn-ui" ,"Tailwind CSS",],
       github: "https://github.com/Hamza-Zehri/school-managment-system",
       webapp: "https://preview--school-management-system-kz.lovable.app",
+    },
+    {
+      id: 5,
+      title: "Al-Farooq Residential School Management System (AFSMS)",
+      description:
+        "A comprehensive school management system built with React (frontend), Node.js/Express (backend), and PostgreSQL (database) for Al-Farooq Residential School Khuzdar.",
+      image: AFSMSLogo,
+      tags: ["React" ,"Node.js/Express","PostgreSQL",],
+      github: "https://github.com/Hamza-Zehri/sms-frontend",
+      webapp: "https://schoolmanagementsys.vercel.app/",
     },
   ];
