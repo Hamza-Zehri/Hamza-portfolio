@@ -58,6 +58,7 @@ import dataHUBLogo from './assets/work_logo/data_entry.png';
 import BuetPortalLogo from './assets/work_logo/buet_portal.png';
 import SMSLogo from './assets/work_logo/SMS_logo.png';
 import AFSMSLogo from './assets/work_logo/AFSMS_logo.png';
+import Alfarooqwebsite from './assets/work_logo/alfarooq_website.png';
 
 export const SkillsInfo = [
   {
@@ -275,5 +276,15 @@ export const SkillsInfo = [
       tags: ["React" ,"Node.js/Express","PostgreSQL",],
       github: "https://github.com/Hamza-Zehri/sms-frontend",
       webapp: "https://schoolmanagementsys.vercel.app/",
+    },
+    {
+      id: 6,
+      title: "Al-Farooq Residential School Website",
+      description:
+        "A fully responsive, single-page school website built with HTML5 and Tailwind CSS for a professional, adaptive design. It includes essential content and a client-side validated admission form powered by Vanilla JavaScript. Form submissions are efficiently handled using Formspree integration, eliminating the need for a dedicated backend.",
+      image: Alfarooqwebsite,
+      tags: ["HTML5" ,"Tailwind CSS","Javascript",],
+      github: "https://github.com/Hamza-Zehri/alfarooqschool",
+      webapp: "https://alfarooqschool.netlify.app",
     },
   ];
