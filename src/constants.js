@@ -60,6 +60,7 @@ import BuetPortalLogo from './assets/work_logo/buet_portal.png';
 import SMSLogo from './assets/work_logo/SMS_logo.png';
 import AFSMSLogo from './assets/work_logo/AFSMS_logo.png';
 import Alfarooqwebsite from './assets/work_logo/alfarooq_website.png';
+import khuzdargoldgym from './assets/work_logo/khuzdar_gold_gym.png';
 
 export const SkillsInfo = [
   {
@@ -304,4 +305,16 @@ export const SkillsInfo = [
       github: "https://github.com/Hamza-Zehri/alfarooqschool",
       webapp: "https://alfarooqschool.netlify.app",
     },
+    {
+  id: 7,
+  title: "Khuzdar Gold Gym Management System",
+  description:
+    "A premium, fully responsive web application designed to manage complete gym operations. Built with React, Vite, and Tailwind CSS, it includes a secure Admin Dashboard for member, fee, and expense management, along with a dedicated Biometric Kiosk Mode for seamless attendance tracking. Data is handled locally using Context API + LocalStorage, eliminating the need for a backend.",
+  image: khuzdargoldgym,
+  tags: ["React", "Vite", "Tailwind CSS", "Context API", "LocalStorage"],
+  github: "https://github.com/Hamza-Zehri/Khuzdar-Gold-Gym",
+  webapp: "https://khuzdargoldgym.vercel.app",
+}
+
+  ];
   ];
