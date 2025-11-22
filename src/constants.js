@@ -41,6 +41,7 @@ import VrayLogo from './assets/tech_logo/Vray-icon.png';
 import upworkLogo from './assets/tech_logo/upwork-icon.png';
 
 // Experience Section Logo's
+import sdsLogo from './assets/company_logo/sds-logo.png';
 import buetkLogo from './assets/company_logo/buetk_logo.png';
 import navttcLogo from './assets/company_logo/navttc_logo.png';
 import aetikLogo from './assets/company_logo/aetik_logo.png';
@@ -125,8 +126,24 @@ export const SkillsInfo = [
 ];
 
   export const experiences = [
+   {
+  id: 0,
+  img: sdsLogo,
+  role: "**2nd Position** - AutoCad Competition",
+  company: "**4th TechBuzz** event organized by the Student Developer Society at **BUETK** in the academic year 2025",
+  date: "Academic Year 2025",
+  desc: "Awarded the 2nd Position in the AutoCAD Competition during the 4th TechBuzz event organized by the Student Developer Society at BUETK[cite: 12, 13, 20]. Demonstrated outstanding performance  in utilizing AutoCAD software for design and drafting, showcasing proficiency in creating technical drawings and models.",
+  skills: [
+    "AutoCAD",
+    "Technical Drafting",
+    "2D/3D Modeling",
+    "Computer-Aided Design (CAD)",
+    "Architectural Drafting",
+    "Mechanical Drafting",
+  ],
+},
     {
-      id: 0,
+      id: 1,
       img: buetkLogo,
       role: "Fullstack Developer",
       company: "Balochistan University of Enigeering & Technology Khuzdar",
@@ -144,7 +161,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 1,
+      id: 2,
       img: navttcLogo,
       role: "AutoCAD With Revit",
       company: "ational Vocational & Technical Training Commission",
@@ -158,7 +175,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: aetikLogo,
       role: "Office Automation & Typing",
       company: "Apple Computer Trainings Center Khuzdar",
