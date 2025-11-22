@@ -306,7 +306,7 @@ export const SkillsInfo = [
       webapp: "https://alfarooqschool.netlify.app",
     },
     {
-  id: 7,
+      id: 7,
   title: "Khuzdar Gold Gym Management System",
   description:
     "A premium, fully responsive web application designed to manage complete gym operations. Built with React, Vite, and Tailwind CSS, it includes a secure Admin Dashboard for member, fee, and expense management, along with a dedicated Biometric Kiosk Mode for seamless attendance tracking. Data is handled locally using Context API + LocalStorage, eliminating the need for a backend.",
@@ -316,5 +316,4 @@ export const SkillsInfo = [
   webapp: "https://khuzdargoldgym.vercel.app",
 }
 
-  ];
   ];
