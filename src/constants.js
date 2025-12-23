@@ -61,7 +61,7 @@ import SMSLogo from './assets/work_logo/SMS_logo.png';
 import AFSMSLogo from './assets/work_logo/AFSMS_logo.png';
 import Alfarooqwebsite from './assets/work_logo/alfarooq_website.png';
 import khuzdargoldgym from './assets/work_logo/khuzdar_gold_gym.png';
-import realestatemanagementsystem from './assets/work_logo/Real Estate Mangement System.png'
+import realestatemanagementsystem from './assets/work_logo/Real_Estate_Mangement_System.png'
 
 export const SkillsInfo = [
   {
@@ -315,7 +315,7 @@ export const SkillsInfo = [
   tags: ["React", "Vite", "Tailwind CSS", "Context API", "LocalStorage"],
   github: "https://github.com/Hamza-Zehri/Khuzdar-Gold-Gym",
   webapp: "https://khuzdargoldgym.vercel.app",
-}
+},
 {
   id: 8,
   title: "Real Estate Management System",
