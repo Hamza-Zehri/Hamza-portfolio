@@ -321,7 +321,7 @@ export const SkillsInfo = [
   title: "Real Estate Management System",
   description:
     "A comprehensive, fully responsive web application designed for real estate developers to manage projects, inventory (blocks/plots), clients, bookings, and financials. Built with React, Vite, and Tailwind CSS, it features a secure Admin Dashboard for managing clients, plots, payments, and documents. State is handled locally using Zustand with persistence, eliminating the need for a backend.",
-  image: realEstateImage, // replace with your imported image variable
+  image: realestatemanagementsystem, // replace with your imported image variable
   tags: ["React", "Vite", "Tailwind CSS", "Zustand", "Local Persistence"],
   github: "https://github.com/Hamza-Zehri/Real-Estate-Manegement-System",
   webapp: "https://realem.vercel.app"
