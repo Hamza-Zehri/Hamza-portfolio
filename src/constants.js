@@ -61,6 +61,7 @@ import SMSLogo from './assets/work_logo/SMS_logo.png';
 import AFSMSLogo from './assets/work_logo/AFSMS_logo.png';
 import Alfarooqwebsite from './assets/work_logo/alfarooq_website.png';
 import khuzdargoldgym from './assets/work_logo/khuzdar_gold_gym.png';
+import realestatemanagementsystem from './assets/work_logo/Real Estate Mangement System.png'
 
 export const SkillsInfo = [
   {
@@ -315,5 +316,14 @@ export const SkillsInfo = [
   github: "https://github.com/Hamza-Zehri/Khuzdar-Gold-Gym",
   webapp: "https://khuzdargoldgym.vercel.app",
 }
-
+{
+  id: 8,
+  title: "Real Estate Management System",
+  description:
+    "A comprehensive, fully responsive web application designed for real estate developers to manage projects, inventory (blocks/plots), clients, bookings, and financials. Built with React, Vite, and Tailwind CSS, it features a secure Admin Dashboard for managing clients, plots, payments, and documents. State is handled locally using Zustand with persistence, eliminating the need for a backend.",
+  image: realEstateImage, // replace with your imported image variable
+  tags: ["React", "Vite", "Tailwind CSS", "Zustand", "Local Persistence"],
+  github: "https://github.com/Hamza-Zehri/Real-Estate-Manegement-System",
+  webapp: "https://realem.vercel.app"
+}
   ];
