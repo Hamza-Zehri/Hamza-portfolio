@@ -45,6 +45,9 @@ import sdsLogo from './assets/company_logo/sds-logo.png';
 import buetkLogo from './assets/company_logo/buetk_logo.png';
 import navttcLogo from './assets/company_logo/navttc_logo.png';
 import aetikLogo from './assets/company_logo/aetik_logo.png';
+import CourseraLogo from './assets/education_logo/coursera_logo.png';
+import googleLogo from './assets/education_logo/google.png';
+
 
 // Education Section Logo's
 import buetLogo from './assets/education_logo/buet_logo.png';
@@ -130,9 +133,43 @@ export const SkillsInfo = [
   export const experiences = [
    {
   id: 0,
+  img: CourseraLogo,
+  role: "Google Prompting Essentials - Coursera",
+  company: "Google on Coursera",
+  date: "December 2025",
+  desc: "Successfully completed the 'Google Prompting Essentials' course offered by Google on the Coursera platform in December 2025[cite: 16, 17, 22]. This course provided a comprehensive understanding of prompting techniques and strategies for effective communication with AI models, equipping me with essential skills to leverage AI technologies in various applications.",
+  skills: [
+    "AI Prompting",
+    "Natural Language Processing",
+    "AI Communication",
+    "Image Generation",
+    "Prompt Engineering",
+    "problem Solving",
+    "AI Applications",
+  ],
+},
+    {
+  id: 1,
+  img: googleLogo,
+  role: "Foundation of Cybersecurity - Coursera",
+  company: "Google on Coursera",
+  date: "December 2025",
+  desc: "Successfully completed the 'Foundation of Cybersecurity' course offered by Google on the Coursera platform in December 2025[cite: 14, 15, 21]. This course provided a comprehensive introduction to cybersecurity principles, practices, and tools, equipping me with essential knowledge to understand and address cybersecurity challenges in various contexts.",
+  skills: [
+    "Network Security",
+    "Network Protocols",
+    "Network Monitoring",
+    "Network Threats",
+    "Cybersecurity Fundamentals",
+    "Risk Management",
+    "Network Defense Strategies",
+  ],
+},
+{
+  id: 2,
   img: sdsLogo,
-  role: "**2nd Position** - AutoCad Competition",
-  company: "**4th TechBuzz** event organized by the Student Developer Society at **BUETK** in the academic year 2025",
+  role: "2nd Position - AutoCAD Competition",
+  company: "4th TechBuzz event organized by the Student Developer Society at BUETK in the academic year 2025",
   date: "Academic Year 2025",
   desc: "Awarded the 2nd Position in the AutoCAD Competition during the 4th TechBuzz event organized by the Student Developer Society at BUETK[cite: 12, 13, 20]. Demonstrated outstanding performance  in utilizing AutoCAD software for design and drafting, showcasing proficiency in creating technical drawings and models.",
   skills: [
@@ -145,10 +182,10 @@ export const SkillsInfo = [
   ],
 },
     {
-      id: 1,
+      id: 3,
       img: buetkLogo,
       role: "Fullstack Developer",
-      company: "Balochistan University of Enigeering & Technology Khuzdar",
+      company: "Balochistan University of Engineering & Technology, Khuzdar",
       date: "April 2024 - August 2025",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
@@ -163,12 +200,12 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 2,
+      id: 4,
       img: navttcLogo,
       role: "AutoCAD With Revit",
-      company: "ational Vocational & Technical Training Commission",
-      date: "March 2022 - Sepetember 2022",
-      desc: "Completed a vocational training program focusing on architectural and interior design software. Gained proficiency in **AutoCAD 2D/3D** for drafting and design, **3ds Max** for 3D modeling, and **V-Ray** for photorealistic rendering. Developed skills in creating detailed blueprints and high-quality visualizations for a variety of projects.",
+      company: "National Vocational & Technical Training Commission",
+      date: "March 2022 - September 2022",
+      desc: "Completed a vocational training program focusing on architectural and interior design software. Gained proficiency in AutoCAD 2D/3D for drafting and design, 3ds Max for 3D modeling, and V-Ray for photorealistic rendering. Developed skills in creating detailed blueprints and high-quality visualizations for a variety of projects.",
       skills: [
         "AutoCAD 2D/3D",
     "3ds Max",
@@ -177,7 +214,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 3,
+      id: 5,
       img: aetikLogo,
       role: "Office Automation & Typing",
       company: "Apple Computer Trainings Center Khuzdar",
@@ -203,7 +240,7 @@ export const SkillsInfo = [
       school: "Balochistan University of Engineering & Technology Khuzdar",
       date: "Dec 2022 - Dec 2026",
       grade: "3.5 CGPA (in process)",
-      desc: "Currently pursuing a Bachelor of Engineering in Software Engineering. This program has provided me with a robust foundation in software development principles and practices, including **Data Structures, Algorithms, Object-Oriented Programming, and Database Management Systems**. I am gaining practical experience in designing and developing software solutions while honing my skills in various programming languages and modern software development methodologies.",
+      desc: "Currently pursuing a Bachelor of Engineering in Software Engineering. This program has provided me with a robust foundation in software development principles and practices, including Data Structures, Algorithms, Object-Oriented Programming, and Database Management Systems. I am gaining practical experience in designing and developing software solutions while honing my skills in various programming languages and modern software development methodologies.",
       degree: "Bachelor of Engineering (B.E) in Software Engineering",
     },
     {
@@ -227,11 +264,11 @@ export const SkillsInfo = [
     {
       id: 3,
       img: afsLogo,
-      school: "Al-Farooq Resdential School Khuzdar",
+      school: "Al-Farooq Residential School Khuzdar",
       date: "March 2013 - March 2018",
       grade: "85%",
       desc: "Completed my middle school education, establishing a foundational understanding of core subjects. This period focused on building strong learning habits and preparing for higher academic levels",
-      degree: "Middle School Education (3th - 8th Grade)",
+      degree: "Middle School Education (3rd - 8th Grade)",
     },
   ];
   
@@ -248,7 +285,7 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      title: "GPA & CPGA Calculator",
+      title: "GPA & CGPA Calculator",
       description:
         "This is a simple, modern, and user-friendly web-based calculator for determining your Semester GPA and cumulative CGPA. It's built with clean HTML, CSS, and JavaScript, designed to be intuitive and accessible for students.",
       image: CGPALogo,

@@ -1,7 +1,38 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { experiences } from "../../constants"; // Import your data
 
 const Experience = () => {
+  const badgeRef = useRef(null);
+
+  useEffect(() => {
+    const container = badgeRef.current;
+    if (!container) return;
+
+    // Clear any existing content (safe re-mount)
+    container.innerHTML = '';
+
+    // Create the Credly badge placeholder div
+    const badgeDiv = document.createElement('div');
+    badgeDiv.setAttribute('data-iframe-width', '150');
+    badgeDiv.setAttribute('data-iframe-height', '270');
+    badgeDiv.setAttribute('data-share-badge-id', 'df755883-cd2b-48f5-8ad0-624cae5a6a4d');
+    badgeDiv.setAttribute('data-share-badge-host', 'https://www.credly.com');
+    container.appendChild(badgeDiv);
+
+    // Inject Credly embed script
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = '//cdn.credly.com/assets/utilities/embed.js';
+    document.body.appendChild(script);
+
+    return () => {
+      // Clean up: remove script and badge to avoid duplicates on unmount
+      if (script.parentNode) script.parentNode.removeChild(script);
+      if (container) container.innerHTML = '';
+    };
+  }, []);
+
   return (
     <section
       id="experience"
@@ -14,6 +45,31 @@ const Experience = () => {
         <p className="text-gray-400 mt-4 text-lg font-semibold">
           A collection of my certifications and achievements earned through various roles and experiences.
         </p>
+
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-8 mt-8">
+          <div
+            ref={badgeRef}
+            aria-label="Coursera achievement badge"
+            className="rounded-lg bg-gradient-to-b from-[#0f1724] to-[#0b1220] p-4 shadow-[0_10px_30px_rgba(130,69,236,0.15)] border border-purple-700"
+          >
+            <noscript>
+              <a
+                href="https://www.credly.com/badges/df755883-cd2b-48f5-8ad0-624cae5a6a4d"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-[#8245ec] underline"
+              >
+                View badge
+              </a>
+            </noscript>
+          </div>
+
+          <div className="max-w-xl text-left">
+            <h3 className="text-lg font-semibold text-white">Coursera — Achievement Badge</h3>
+            <p className="text-gray-400 mt-2">Completed a Coursera course; credential is shared via Credly. <a href="https://www.credly.com/badges/df755883-cd2b-48f5-8ad0-624cae5a6a4d" target="_blank" rel="noopener noreferrer" className="text-[#8245ec] underline">Verify on Credly</a></p>
+          </div>
+        </div>
+
       </div>
 
       {/* Experience Timeline */}
